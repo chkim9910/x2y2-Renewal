@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
-import Card from "../../components/card/Card";
+import Card from "../card/Card";
 
-export default function Home() {
+export default function Header() {
   return (
     <>
       <Box>
