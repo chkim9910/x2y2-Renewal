@@ -37,6 +37,7 @@ export const inputStyles = {
             _hover: {
               bg: "tab.200",
             },
+            _focusVisible: { borderColor: "none", bg: "tab.200" },
           },
         }),
         auth: (props) => ({

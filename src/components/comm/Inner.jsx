@@ -13,6 +13,8 @@ export default function Inner(props) {
       display={props.display}
       justifyContent={props.justifyContent}
       gap={props.gap}
+      position={props.position}
+      zIndex={props.zIndex}
     >
       {props.children}
     </Box>

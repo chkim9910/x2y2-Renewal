@@ -8,7 +8,19 @@ import { GrCart } from "react-icons/gr";
 export default function Header() {
   return (
     <>
-      <Box className="header" h={"80px"}>
+      <Box
+        className="header"
+        h={"80px"}
+        position={"fixed"}
+        zIndex={100}
+        top={0}
+        left={0}
+        right={0}
+        boxShadow={"0 1px 4px 0 rgba(0,0,0,.07)"}
+        bgColor={"white"}
+        // bgColor={"rgba(255, 255, 255, .2)"}
+        // backdropFilter={"saturate(180%) blur(15px)"}
+      >
         <Inner
           display="flex" /* justifyContent="space-between" */
           gap={{ base: "20px", lg: "50px", "2xl": "150px" }}
@@ -34,7 +46,6 @@ export default function Header() {
                 <Input
                   variant="filled"
                   placeholder="Search for collections, NFTs or users"
-                  _focusVisible={("border-color", "none")}
                 />
               </Box>
               <Box className="gnb" display={{ base: "none", lg: "block" }}>
