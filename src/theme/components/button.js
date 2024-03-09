@@ -7,11 +7,15 @@ export const buttonStyles = {
         boxShadow: "45px 76px 113px 7px rgba(112, 144, 176, 0.08)",
         transition: ".25s all ease",
         boxSizing: "border-box",
+        bg: "tab.100",
         _focus: {
           boxShadow: "none",
         },
         _active: {
           boxShadow: "none",
+        },
+        _hover: {
+          bg: "tab.200",
         },
       },
       variants: {
@@ -24,6 +28,16 @@ export const buttonStyles = {
           bg: "black",
           _hover: {
             bg: "black.800",
+          },
+        }),
+        b: () => ({
+          borderRadius: "10px",
+          bg: "tab.100",
+          fontSize: "14px",
+          color: "txt",
+          fontWeight: "medium",
+          _hover: {
+            bg: "tab.200",
           },
         }),
         icon: () => ({

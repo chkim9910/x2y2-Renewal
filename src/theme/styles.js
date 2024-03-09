@@ -143,7 +143,10 @@ export const globalStyles = {
       ".chakra-container": {
         maxWidth: "calc(1280px + var(--chakra-space-4) * 2) !important",
       },
-      ".css-4ziap4": {
+      ".footer .css-4ziap4": {
+        width: "auto !important",
+      },
+      ".sect2 .css-42b2qy": {
         width: "auto !important",
       },
       ".sect1 .swiper-horizontal": {

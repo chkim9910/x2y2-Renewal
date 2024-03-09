@@ -15,6 +15,7 @@ export default function Inner(props) {
       gap={props.gap}
       position={props.position}
       zIndex={props.zIndex}
+      margin={props.m}
     >
       {props.children}
     </Box>

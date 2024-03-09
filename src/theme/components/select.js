@@ -4,7 +4,7 @@ export const selectStyles = {
     Select: {
       baseStyle: {
         field: {
-          w: "90px",
+          // w: "90px",
           _hover: {
             bg: "black.800",
           },
@@ -13,7 +13,7 @@ export const selectStyles = {
       variants: {
         filled: () => ({
           field: {
-            w: "90px",
+            // w: "90px",
             bg: "tab.100",
             fontSize: "14px",
             cursor: "pointer",
