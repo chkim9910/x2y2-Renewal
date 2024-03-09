@@ -26,6 +26,7 @@ export const inputStyles = {
           field: {
             bg: "tab.100",
             border: "1px solid",
+            minW: "150px",
             color: mode("secondaryGray.900", "white")(props),
             borderColor: mode("tab.100", "whiteAlpha.100")(props),
             borderRadius: "16px",

@@ -10,7 +10,7 @@ export default function Footer() {
           justifyContent={"center"}
           gap={{ base: "10px", md: "40px" }}
         >
-          <Text fontSize={"14px"}>© 2021 - 2024 X2Y2</Text>
+          <Text fontSize={"14px"}>©2021 - 2024 X2Y2</Text>
           <Flex
             className={"center"}
             fontSize={"14px"}

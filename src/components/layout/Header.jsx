@@ -9,31 +9,35 @@ export default function Header() {
   return (
     <>
       <Box className="header" h={"80px"}>
-        <Inner display="flex" justifyContent="space-between">
+        <Inner
+          display="flex" /* justifyContent="space-between" */
+          gap={{ base: "20px", lg: "50px", "2xl": "150px" }}
+        >
           <Flex
             className="left-box"
-            gap={{ lg: "20px", "2xl": "77px" }}
+            gap={{ base: "20px", "2xl": "40px" }}
             alignItems={"center"}
+            flex={1}
           >
-            <Box className="logo" w={"fit-content"}>
+            <Box className="logo" w={"fit-content"} minW={"110px"}>
               <ChakraLink as={ReactRouterLink} to="/">
                 <Image src={logo} alt="x2y2" w={"110px"} />
               </ChakraLink>
             </Box>
             <Box
               className="center-box"
-              display={{ base: "none", xl: "flex" }}
+              display={{ base: "none", md: "flex" }}
               alignItems={"center"}
-              // flex={1}
+              flex={1}
             >
-              <Box className="search" w={"488px"}>
+              <Box className="search" minW={"250px"} flex={1}>
                 <Input
                   variant="filled"
                   placeholder="Search for collections, NFTs or users"
                   _focusVisible={("border-color", "none")}
                 />
               </Box>
-              <Box className="gnb">
+              <Box className="gnb" display={{ base: "none", lg: "block" }}>
                 <ChakraLink as={ReactRouterLink} to="/">
                   <TextStyle>Collections</TextStyle>
                 </ChakraLink>
@@ -46,8 +50,16 @@ export default function Header() {
               </Box>
             </Box>
           </Flex>
-          <Flex className="right-box" alignItems={"center"} gap={"16px"}>
-            <Button variant={"a"} display={{ base: "none", sm: "block" }}>
+          <Flex
+            className="right-box"
+            alignItems={"center"}
+            gap={{ base: "10px", lg: "0" }}
+          >
+            <Button
+              variant={"a"}
+              display={{ base: "none", sm: "block" }}
+              mr={{ base: 0, lg: "10px" }}
+            >
               Connect wallet
             </Button>
             <IconButton variant={"icon"} icon={<GrCart />} />
@@ -58,7 +70,11 @@ export default function Header() {
               display={"flex"}
               alignItems={"center"}
             >
-              <Flex flexDir={"column"} gap={"6px"}>
+              <Flex
+                flexDir={"column"}
+                gap={"6px"}
+                display={{ base: "flex", lg: "none" }}
+              >
                 <MenuStyle></MenuStyle>
                 <MenuStyle></MenuStyle>
                 <MenuStyle></MenuStyle>
