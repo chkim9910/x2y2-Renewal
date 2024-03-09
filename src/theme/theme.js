@@ -11,6 +11,7 @@ import { breakpoints } from "./foundations/breakpoints";
 import { globalStyles } from "./styles";
 import { containerTheme } from "./components/container";
 import { CardComponent } from "./additions/card/card";
+import { selectStyles } from "./components/select";
 export default extendTheme(
   { breakpoints }, // Breakpoints
   globalStyles,
@@ -23,5 +24,6 @@ export default extendTheme(
   textareaStyles, // textarea styles
   switchStyles, // switch styles
   CardComponent,
-  containerTheme
+  containerTheme,
+  selectStyles
 );

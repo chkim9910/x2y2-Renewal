@@ -22,6 +22,22 @@ export const inputStyles = {
             _placeholder: { color: "secondaryGray.400" },
           },
         }),
+        filled: (props) => ({
+          field: {
+            bg: "tab.100",
+            border: "1px solid",
+            color: mode("secondaryGray.900", "white")(props),
+            borderColor: mode("tab.100", "whiteAlpha.100")(props),
+            borderRadius: "16px",
+            fontSize: "sm",
+            p: "20px",
+            // color: "tab.400",
+            _placeholder: { color: "tab.400" },
+            _hover: {
+              bg: "tab.200",
+            },
+          },
+        }),
         auth: (props) => ({
           field: {
             fontWeight: "500",
