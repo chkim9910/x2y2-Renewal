@@ -1,12 +1,4 @@
-import {
-  Box,
-  Button,
-  ButtonGroup,
-  Flex,
-  Img,
-  Select,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Button, ButtonGroup, Flex, Select, Text } from "@chakra-ui/react";
 import Sect1Slide from "./components/Sect1Slide";
 import Inner from "../../components/comm/Inner";
 // import { position } from "polished";
