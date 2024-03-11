@@ -40,6 +40,31 @@ export const buttonStyles = {
             bg: "tab.200",
           },
         }),
+        c: () => ({
+          borderRadius: "1rem",
+          bg: "white",
+          fontSize: "14px",
+          color: "txt",
+          fontWeight: "medium",
+          padding: "23px 15px",
+          minW: "110px",
+          _hover: {
+            bg: "white.800",
+          },
+        }),
+        d: () => ({
+          borderRadius: "1rem",
+          bg: "white.200",
+          fontSize: "14px",
+          color: "white",
+          fontWeight: "medium",
+          padding: "23px 15px",
+          minW: "110px",
+          lineHeight: 0,
+          _hover: {
+            bg: "white.300",
+          },
+        }),
         icon: () => ({
           borderRadius: "10px",
           color: "black",

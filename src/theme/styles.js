@@ -143,7 +143,7 @@ export const globalStyles = {
       ".chakra-container": {
         maxWidth: "calc(1280px + var(--chakra-space-4) * 2) !important",
       },
-      ".footer .css-4ziap4": {
+      ".footer .css-1ora5w9": {
         width: "auto !important",
       },
       ".sect2 .css-42b2qy": {
@@ -184,6 +184,16 @@ export const globalStyles = {
         color: "#3B82F6",
         fontSize: "30px",
         fontWeight: "bold",
+      },
+      ".sect2 .hot-collections .css-1qe9ypl": {
+        padding: "15px 10px",
+      },
+      ".sect2 .hot-collections .css-1zts0j": {
+        padding: "15px 10px",
+      },
+      ".sect2 .hot-collections .css-xumdn4": {
+        padding: "20px 10px",
+        fontSize: { base: "14px", md: "1rem" },
       },
     }),
   },
