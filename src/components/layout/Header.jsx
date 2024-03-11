@@ -2,37 +2,33 @@ import { Box, Button, Flex, IconButton, Image, Input } from "@chakra-ui/react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { Link as ChakraLink } from "@chakra-ui/react";
 import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import Inner from "../comm/Inner";
 import logo from "../../assets/images/comm/logo.svg";
 import styled from "styled-components";
 import { GrCart } from "react-icons/gr";
-import { useEffect, useState } from "react";
+import { useRef } from "react";
 
 export default function Header() {
-  const [isScroll, setIsScroll] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const hdHeight = document.querySelector(".header")?.offsetHeight || 0;
-      const scrollPosition =
-        window.scrollY || document.documentElement.scrollTop;
-      if (scrollPosition > hdHeight) {
-        document.getElementById("header").style.top = "-32px";
-      } else {
-        document.querySelector(".header").style.top = -scrollPosition + "px";
-        setIsScroll(true);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  // 스크롤 이벤트 핸들러
-  const HandleScroll = () => {};
+  gsap.registerPlugin();
+  const hd = useRef();
+  useGSAP(() => {
+    gsap.to(hd.current, {
+      backgroundColor: "rgba(255, 255, 255, .2)",
+      backdropFilter: "saturate(180%) blur(15px)",
+      scrollTrigger: {
+        trigger: hd.current,
+        start: "top top",
+        end: "+=200px",
+        scrub: 1,
+      },
+    });
+  });
 
   return (
     <>
       <Box
+        ref={hd}
         className="header"
         h={"80px"}
         position={"fixed"}
