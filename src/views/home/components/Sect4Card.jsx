@@ -8,14 +8,14 @@ export default function Sect4Card() {
 
   const handleMouseOver = (index) => {
     setHoveredIndex(index); // 마우스 오버된 Flex 요소의 인덱스 설정
-    setTimeout(() => {
-      descRefs.current[index].style.display = "block";
-    }, 300);
+    // setTimeout(() => {
+    //   descRefs.current[index].style.display = "block";
+    // }, 300);
   };
 
   const handleMouseOut = (index) => {
     setHoveredIndex(null); // 마우스가 벗어날 때 인덱스 초기화
-    descRefs.current[index].style.display = "none";
+    // descRefs.current[index].style.display = "none";
   };
 
   return (
@@ -38,14 +38,14 @@ export default function Sect4Card() {
             // w={"380px"}
             alignItems={"flex-end"}
             onMouseOver={() => handleMouseOver(index)}
-            onMouseOut={() => handleMouseOut(index)}
+            // onMouseOut={() => handleMouseOut(index)}
           >
             <Flex
               className="half-box"
               flexDir={"column"}
               justifyContent={"space-between"}
               p={"20px"}
-              h={hoveredIndex === index ? "60%" : "40%"}
+              h={hoveredIndex === index ? "70%" : "40%"}
               w={hoveredIndex === index ? "100%" : "85%"}
               borderRadius={
                 hoveredIndex === index ? "0 0 1rem 1rem" : "0 1rem 1rem 1rem"
@@ -62,7 +62,11 @@ export default function Sect4Card() {
                 fontSize={{ base: "14px", md: "1rem" }}
                 fontWeight={"light"}
                 ref={(ref) => (descRefs.current[index] = ref)}
-                display={"none"}
+                display={hoveredIndex === index ? "block" : "none"}
+                transition={
+                  hoveredIndex === index ? "display 0.3s linear 1s" : "none"
+                }
+                // display={"none"}
               >
                 {item.desc}
               </Text>

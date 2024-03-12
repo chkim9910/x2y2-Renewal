@@ -136,6 +136,9 @@ export default function Home() {
           <Sect4Card />
         </Inner>
       </Box>
+      <Box className="sect5">
+        <Inner m={{ base: "50px 0", lg: "80px 0" }}></Inner>
+      </Box>
     </>
   );
 }
