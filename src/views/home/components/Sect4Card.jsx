@@ -13,10 +13,10 @@ export default function Sect4Card() {
     // }, 300);
   };
 
-  const handleMouseOut = (index) => {
-    setHoveredIndex(null); // 마우스가 벗어날 때 인덱스 초기화
-    // descRefs.current[index].style.display = "none";
-  };
+  // const handleMouseOut = (index) => {
+  //   setHoveredIndex(null); // 마우스가 벗어날 때 인덱스 초기화
+  //   // descRefs.current[index].style.display = "none";
+  // };
 
   return (
     <>

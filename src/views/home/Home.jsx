@@ -11,6 +11,7 @@ import Sect3Card from "./components/Sect3Card";
 import { card1, card2 } from "./contents/sect3cards";
 import sect3bg from "../../assets/images/home/sect3/bg.jpg";
 import Sect4Card from "./components/Sect4Card";
+import Sect5Slide from "./components/Sect5Slide";
 
 export default function Home() {
   return (
@@ -137,7 +138,9 @@ export default function Home() {
         </Inner>
       </Box>
       <Box className="sect5">
-        <Inner m={{ base: "50px 0", lg: "80px 0" }}></Inner>
+        <Inner m={{ base: "50px 0", lg: "80px 0" }}>
+          <Sect5Slide />
+        </Inner>
       </Box>
     </>
   );

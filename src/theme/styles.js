@@ -195,6 +195,14 @@ export const globalStyles = {
         padding: "20px 10px",
         fontSize: { base: "14px", md: "1rem" },
       },
+      ".sect5 .swiper-button-next:after": {
+        color: "white",
+        fontSize: { base: "30px", md: "36px" },
+      },
+      ".sect5 .swiper-button-prev:after": {
+        color: "white",
+        fontSize: { base: "30px", md: "36px" },
+      },
     }),
   },
 };
