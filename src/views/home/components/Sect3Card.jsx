@@ -7,7 +7,9 @@ export default function Sect3Card(props) {
     <>
       <Box p={{ base: "14px 0", lg: "20px 0" }} flex={props.flex}>
         <Box className="tit-box" color={"white"}>
-          <Heading className="title">{content.tit}</Heading>
+          <Heading className="title" fontSize={"32px"}>
+            {content.tit}
+          </Heading>
           <Text className="sub-title">{content.subtit}</Text>
         </Box>
         <Box className="content-box">

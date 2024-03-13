@@ -194,6 +194,7 @@ export const globalStyles = {
       ".sect2 .hot-collections .css-xumdn4": {
         padding: "20px 10px",
         fontSize: { base: "14px", md: "1rem" },
+        fontWeight: "medium",
       },
       ".sect5 .swiper-button-next:after": {
         color: "white",

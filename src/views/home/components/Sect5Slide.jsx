@@ -63,7 +63,7 @@ export default function Sect5Slide() {
                 <Heading
                   mb={"10px"}
                   lineHeight={1.2}
-                  fontSize={{ base: "30px", lg: "36px" }}
+                  fontSize={{ base: "30px", lg: "32px" }}
                 >
                   {item.tit}
                 </Heading>
