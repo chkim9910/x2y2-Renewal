@@ -9,7 +9,7 @@ export default function Layout() {
     <>
       <Box className="wrap" display={"flex"} flexDir={"column"} minH={"100svh"}>
         <Header />
-        <Box className="main" flex={1}>
+        <Box className="main" flex={1} display={"flex"} flexDir={"column"}>
           <Outlet />
         </Box>
         <Footer />
