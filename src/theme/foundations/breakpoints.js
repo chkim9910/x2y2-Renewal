@@ -5,6 +5,7 @@ export const breakpoints = createBreakpoints({
   sm: "480px",
   "2sm": "600px",
   md: "768px",
+  "2md": "890px",
   lg: "1024px",
   xl: "1200px",
   "xl1-2": "1240px",

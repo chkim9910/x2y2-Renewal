@@ -6,10 +6,10 @@ import checked from "../../../assets/images/comm/checked-blue.svg";
 export default function SlideCard(props) {
   return (
     <>
-      <ChakraLink as={ReactRouterLink} to="/">
+      <ChakraLink as={ReactRouterLink} to="/moreview1">
         <Flex
           className="card"
-          backgroundImage={`linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url(${props.img})`}
+          backgroundImage={`linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4)), url(${props.img})`}
           backgroundPosition={"50% 50%"}
           backgroundSize={"cover"}
           inset={"20px"}

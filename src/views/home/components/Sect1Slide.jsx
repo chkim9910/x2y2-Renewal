@@ -12,6 +12,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import SlideCard from "./SlideCard";
 // img
+import el0 from "../../../assets/images/home/sect1/slide0.png";
 import el1 from "../../../assets/images/home/sect1/slide1.png";
 import el2 from "../../../assets/images/home/sect1/slide2.png";
 import el3 from "../../../assets/images/home/sect1/slide3.jpg";
@@ -23,6 +24,7 @@ import el8 from "../../../assets/images/home/sect1/slide8.png";
 
 export default function Sect1Slide() {
   const slideli = [
+    { name: "The Weirdo Ghost Gang", floor: 1.3, img: el0 },
     { name: "Party Degenerates", floor: 2, img: el1 },
     { name: "Spring and Autumn by KrisK", floor: "N/A", img: el2 },
     { name: "Gangster All Star Evolution", floor: 2, img: el3 },

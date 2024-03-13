@@ -204,6 +204,21 @@ export const globalStyles = {
         color: "white",
         fontSize: { base: "30px", md: "36px" },
       },
+      ".bottom .css-s6lr1x": {
+        width: "auto !important",
+      },
+      ".bottom .css-42b2qy": {
+        width: "auto !important",
+      },
+      ".bottom .css-sjcmc2": {
+        margin: "0 !important",
+      },
+      ".bottom .css-uttm9k:hover": {
+        bg: "transparent",
+      },
+      ".bottom .css-uttm9k": {
+        p: { base: "12px", lg: "16px" },
+      },
     }),
   },
 };

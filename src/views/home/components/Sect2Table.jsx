@@ -47,7 +47,7 @@ export default function Sect2Table(props) {
                       w={"60px"}
                       borderRadius={"50%"}
                     />
-                    <ChakraLink as={ReactRouterLink} to="/">
+                    <ChakraLink as={ReactRouterLink} to="/moreview1">
                       {item.name}
                     </ChakraLink>
                     <Img src={checked} alt="checked" w={"18px"} />

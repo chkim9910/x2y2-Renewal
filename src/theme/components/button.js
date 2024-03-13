@@ -62,7 +62,40 @@ export const buttonStyles = {
           minW: "110px",
           lineHeight: 0,
           _hover: {
-            bg: "white.300",
+            bg: "white.200",
+          },
+        }),
+        e: () => ({
+          borderRadius: "10px",
+          bg: "black.200",
+          fontSize: "14px",
+          color: "txt",
+          fontWeight: "medium",
+          padding: "12px",
+          _hover: {
+            bg: "black.300",
+          },
+        }),
+        f: () => ({
+          borderRadius: "10px",
+          bg: "black",
+          fontSize: "14px",
+          color: "white",
+          fontWeight: "medium",
+          _hover: {
+            bg: "black.800",
+          },
+        }),
+        icon0: () => ({
+          borderRadius: "40px",
+          width: "40px",
+          bg: "tab.100",
+          fontSize: "14px",
+          padding: 0,
+          color: "txt",
+          fontWeight: "medium",
+          _hover: {
+            bg: "tab.200",
           },
         }),
         icon: () => ({
