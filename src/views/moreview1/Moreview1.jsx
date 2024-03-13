@@ -20,7 +20,7 @@ export default function Moreview1() {
             h={"250px"}
             bg={`url(${bg}) no-repeat 50% 50% / cover`}
             borderRadius={"20px"}
-            mt={"80px"}
+            // mt={"80px"}
             position={"relative"}
           >
             <Box

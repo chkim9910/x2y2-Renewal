@@ -18,6 +18,7 @@ import {
 } from "@chakra-ui/react";
 
 export default function LeftBox() {
+  // const { clicked, setClicked } = useMyContext();
   return (
     <>
       <Flex
@@ -28,6 +29,7 @@ export default function LeftBox() {
         borderColor={"tab.200"}
         borderRadius={"20px"}
         flexDir={"column"}
+        // display={clicked ? "none" : "block"}
       >
         <Accordion allowMultiple={true}>
           <AccordionItem
@@ -159,7 +161,7 @@ export default function LeftBox() {
             <AccordionPanel pb={12}>
               <InputGroup
                 className="search"
-                minW={"250px"}
+                // minW={"250px"}
                 flex={1}
                 mr={"16px"}
                 mb={"16px"}

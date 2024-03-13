@@ -13,7 +13,7 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import { IoChevronBack, IoFilter } from "react-icons/io5";
+import { IoChevronBack } from "react-icons/io5";
 import filter1 from "../../../assets/images/comm/four-dot.png";
 import filter12 from "../../../assets/images/comm/filter-on.png";
 import filter2 from "../../../assets/images/comm/nine-dot.png";
@@ -34,6 +34,8 @@ export default function BottomBox() {
     };
   }, []);
 
+  // const [clicked, setClicked] = useMyContext();
+  const [clicked, setClicked] = useState(false);
   return (
     <>
       <Flex className="top">
@@ -41,10 +43,14 @@ export default function BottomBox() {
           <Button
             variant={"b"}
             mr={"16px"}
-            display={{ base: "none", "2md": "block" }}
+            display={{ base: "none", "2md": "flex" }}
+            alignItems={"center"}
+            onClick={() => {
+              setClicked(!clicked);
+            }}
           >
             <Icon as={IoChevronBack} mr={"5px"} />
-            Filters
+            <Text>Filters</Text>
           </Button>
           <Stack
             className="toggle-box"
@@ -153,8 +159,6 @@ export default function BottomBox() {
           </ButtonGroup>
         </Flex>
       </Flex>
-      <Box className="left"></Box>
-      <Box className="right"></Box>
     </>
   );
 }
