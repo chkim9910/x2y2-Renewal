@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Navigation } from "swiper/modules";
 
-import { Box, Button, Flex, Img, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Img, Text } from "@chakra-ui/react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { Link as ChakraLink } from "@chakra-ui/react";
 import { motion } from "framer-motion";
@@ -22,6 +22,9 @@ import { cardsli2 } from "../contents/cardli";
 export default function BottomCards() {
   return (
     <>
+      <Heading fontSize={"32px"} textAlign={"center"} mt={"50px"} mb={"20px"}>
+        More from this collection
+      </Heading>
       <Swiper
         className="mySwiper"
         navigation={true}
@@ -137,6 +140,11 @@ export default function BottomCards() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <Flex justifyContent={"center"}>
+        <Button variant={"a"} my={"20px"}>
+          View Collection
+        </Button>
+      </Flex>
     </>
   );
 }
