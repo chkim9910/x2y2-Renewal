@@ -17,10 +17,17 @@ import { IoIosMore, IoMdHeartEmpty } from "react-icons/io";
 import { LuShare, LuRefreshCw } from "react-icons/lu";
 import { FaPlus } from "react-icons/fa6";
 
-export default function TopRightBox() {
+export default function TopRightBox(props) {
   return (
     <>
-      <Box className="right" flex={1} mt={"20px"} maxW={"448px"}>
+      <Box
+        className="right"
+        flex={1}
+        mt={"20px"}
+        maxW={{ base: "600px", lg: "448px" }}
+        w={"100%"}
+        display={props.display}
+      >
         <Flex className="top" flexDir={"column"} gap={"30px"} mb={"20px"}>
           <Flex className="txt-box" flexDir={"column"} gap={"6px"}>
             <Flex className="author" gap={"8px"} alignItems={"center"}>
