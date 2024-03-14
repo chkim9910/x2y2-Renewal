@@ -1,4 +1,4 @@
-import { Box, Button, Flex, IconButton, Img } from "@chakra-ui/react";
+import { Box, Button, Flex, Img } from "@chakra-ui/react";
 import Inner from "../../components/comm/Inner";
 import bg from "../../assets/images/moreview1/profile/big-profile.png";
 import profile from "../../assets/images/moreview1/profile/small-profile.gif";

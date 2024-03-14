@@ -12,7 +12,7 @@ import { Navigation } from "swiper/modules";
 
 import { Box, Button, Flex, Heading, Text } from "@chakra-ui/react";
 import { slideli } from "../contents/sect5cards";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Sect5Slide() {
   // sect5Slide의 text에 대한 window.innersize onresize 함수

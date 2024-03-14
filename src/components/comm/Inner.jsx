@@ -16,6 +16,8 @@ export default function Inner(props) {
       position={props.position}
       zIndex={props.zIndex}
       margin={props.m}
+      width={props.w}
+      flexDir={props.flexDir}
     >
       {props.children}
     </Box>
