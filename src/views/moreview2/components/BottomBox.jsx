@@ -1,5 +1,5 @@
-import { Box, Button, Flex, Grid, GridItem, Heading } from "@chakra-ui/react";
-import RightBoxCard from "../../moreview1/components/RightBoxCard";
+import { Button, Flex, Grid, GridItem, Heading } from "@chakra-ui/react";
+// import RightBoxCard from "../../moreview1/components/RightBoxCard";
 import BottomCard from "./Card";
 import Inner from "../../../components/comm/Inner";
 

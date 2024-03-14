@@ -15,7 +15,6 @@ import {
   Th,
   Thead,
   Tr,
-  UnorderedList,
 } from "@chakra-ui/react";
 import { FiArrowUpRight } from "react-icons/fi";
 import { Link as ReactRouterLink } from "react-router-dom";

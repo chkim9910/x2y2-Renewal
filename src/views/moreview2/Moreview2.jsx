@@ -3,7 +3,6 @@ import { Box, Flex } from "@chakra-ui/react";
 import BottomBox from "./components/BottomBox";
 import TopLeftBox from "./components/TopLeftBox";
 import TopRightBox from "./components/TopRightBox";
-import Inner from "../../components/comm/Inner";
 
 export default function Moreview2() {
   return (
