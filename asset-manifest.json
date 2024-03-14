@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/x2y2-Renewal/static/css/main.97744a41.css",
-    "main.js": "/x2y2-Renewal/static/js/main.3a9b35ee.js",
+    "main.js": "/x2y2-Renewal/static/js/main.7abdb322.js",
     "static/js/453.68693753.chunk.js": "/x2y2-Renewal/static/js/453.68693753.chunk.js",
     "static/media/card12.png": "/x2y2-Renewal/static/media/card12.ee51efdf0ef34002360d.png",
     "static/media/card2.png": "/x2y2-Renewal/static/media/card2.5059cdeac08afcc7f3ba.png",
@@ -51,11 +51,11 @@
     "static/media/checked-yellow.svg": "/x2y2-Renewal/static/media/checked-yellow.8777b9ed512ea37122dbbfe309179bd1.svg",
     "index.html": "/x2y2-Renewal/index.html",
     "main.97744a41.css.map": "/x2y2-Renewal/static/css/main.97744a41.css.map",
-    "main.3a9b35ee.js.map": "/x2y2-Renewal/static/js/main.3a9b35ee.js.map",
+    "main.7abdb322.js.map": "/x2y2-Renewal/static/js/main.7abdb322.js.map",
     "453.68693753.chunk.js.map": "/x2y2-Renewal/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97744a41.css",
-    "static/js/main.3a9b35ee.js"
+    "static/js/main.7abdb322.js"
   ]
 }
