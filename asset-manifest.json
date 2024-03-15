@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/x2y2-Renewal/static/css/main.97744a41.css",
-    "main.js": "/x2y2-Renewal/static/js/main.7abdb322.js",
+    "main.css": "/x2y2-Renewal/static/css/main.4b763604.css",
+    "main.js": "/x2y2-Renewal/static/js/main.669f7c3c.js",
     "static/js/453.68693753.chunk.js": "/x2y2-Renewal/static/js/453.68693753.chunk.js",
+    "static/media/bg-9.jpg": "/x2y2-Renewal/static/media/bg-9.422a5955535b9fd6895a.jpg",
     "static/media/card12.png": "/x2y2-Renewal/static/media/card12.ee51efdf0ef34002360d.png",
     "static/media/card2.png": "/x2y2-Renewal/static/media/card2.5059cdeac08afcc7f3ba.png",
+    "static/media/bg-3.jpg": "/x2y2-Renewal/static/media/bg-3.2dec8262a9b742f11ecf.jpg",
     "static/media/card3.png": "/x2y2-Renewal/static/media/card3.8018390de22e871aed79.png",
     "static/media/card11.png": "/x2y2-Renewal/static/media/card11.8a05cc449081c852d350.png",
     "static/media/big-profile.png": "/x2y2-Renewal/static/media/big-profile.5b7a126417fb890c13dd.png",
@@ -13,7 +15,6 @@
     "static/media/card10.png": "/x2y2-Renewal/static/media/card10.5b93c156dda5d53ccc3a.png",
     "static/media/card1.png": "/x2y2-Renewal/static/media/card1.2f49df4937fc324b13ed.png",
     "static/media/slide0.png": "/x2y2-Renewal/static/media/slide0.2f49df4937fc324b13ed.png",
-    "static/media/slide5.png": "/x2y2-Renewal/static/media/slide5.889921d2f30b2bf5ff83.png",
     "static/media/card7.png": "/x2y2-Renewal/static/media/card7.89b5133fb6680da4fc38.png",
     "static/media/card8.png": "/x2y2-Renewal/static/media/card8.aa71b4e9daa474561e8b.png",
     "static/media/card6.png": "/x2y2-Renewal/static/media/card6.7e3b27b6ff3590f739bf.png",
@@ -23,8 +24,12 @@
     "static/media/card14.png": "/x2y2-Renewal/static/media/card14.fa7026a356d8cf3658f0.png",
     "static/media/bg.jpg": "/x2y2-Renewal/static/media/bg.ad2df5b2e96d153c705c.jpg",
     "static/media/slide2.png": "/x2y2-Renewal/static/media/slide2.3723f9903ce924cc5181.png",
+    "static/media/bg-4.jpg": "/x2y2-Renewal/static/media/bg-4.963c41905ce961c695bd.jpg",
+    "static/media/bg-1.png": "/x2y2-Renewal/static/media/bg-1.03145db03f374326e90d.png",
     "static/media/slide1.png": "/x2y2-Renewal/static/media/slide1.5e474fd06ba3d43f739a.png",
     "static/media/slide4.png": "/x2y2-Renewal/static/media/slide4.ba1c980bed26c7b6dad1.png",
+    "static/media/bg-7.jpg": "/x2y2-Renewal/static/media/bg-7.d65815ab62f2016e953b.jpg",
+    "static/media/bg-5.jpg": "/x2y2-Renewal/static/media/bg-5.5b96ddfbbea933004237.jpg",
     "static/media/small-profile.gif": "/x2y2-Renewal/static/media/small-profile.5e1f13bed5b0799f0f18.gif",
     "static/media/slide6.jpeg": "/x2y2-Renewal/static/media/slide6.b7ff69171c4cedc84447.jpeg",
     "static/media/slide1-bg.jpg": "/x2y2-Renewal/static/media/slide1-bg.4b3e3b77b9049584bd8d.jpg",
@@ -34,10 +39,12 @@
     "static/media/slide2-2-bg.jpg": "/x2y2-Renewal/static/media/slide2-2-bg.d16b0f6415809b18a729.jpg",
     "static/media/slide1-2-bg.jpg": "/x2y2-Renewal/static/media/slide1-2-bg.f07bbab16918ccfe0255.jpg",
     "static/media/slide4.jpg": "/x2y2-Renewal/static/media/slide4.73389e17de5544b399a9.jpg",
+    "static/media/bg-6.jpg": "/x2y2-Renewal/static/media/bg-6.dce311452bd432cdf699.jpg",
     "static/media/slide2.jpg": "/x2y2-Renewal/static/media/slide2.58b8be36311b4458aa3e.jpg",
     "static/media/slide3.jpg": "/x2y2-Renewal/static/media/slide3.bc33a94f54aa8747b512.jpg",
     "static/media/profile3.png": "/x2y2-Renewal/static/media/profile3.ef9c1f3673e69363780c.png",
     "static/media/profile10.jpg": "/x2y2-Renewal/static/media/profile10.5b3afea8096398d27900.jpg",
+    "static/media/bg-2.png": "/x2y2-Renewal/static/media/bg-2.638c6f4fe68f07de11c7.png",
     "static/media/profile4.jpg": "/x2y2-Renewal/static/media/profile4.735c4687b623a8e8aa02.jpg",
     "static/media/profile3.jpg": "/x2y2-Renewal/static/media/profile3.b232ede5a8c193e41475.jpg",
     "static/media/profile9.jpg": "/x2y2-Renewal/static/media/profile9.58952c04c89218c3cf67.jpg",
@@ -50,12 +57,12 @@
     "static/media/checked-blue.svg": "/x2y2-Renewal/static/media/checked-blue.826b75d8b6b5d02fa30e845a051cb239.svg",
     "static/media/checked-yellow.svg": "/x2y2-Renewal/static/media/checked-yellow.8777b9ed512ea37122dbbfe309179bd1.svg",
     "index.html": "/x2y2-Renewal/index.html",
-    "main.97744a41.css.map": "/x2y2-Renewal/static/css/main.97744a41.css.map",
-    "main.7abdb322.js.map": "/x2y2-Renewal/static/js/main.7abdb322.js.map",
+    "main.4b763604.css.map": "/x2y2-Renewal/static/css/main.4b763604.css.map",
+    "main.669f7c3c.js.map": "/x2y2-Renewal/static/js/main.669f7c3c.js.map",
     "453.68693753.chunk.js.map": "/x2y2-Renewal/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97744a41.css",
-    "static/js/main.7abdb322.js"
+    "static/css/main.4b763604.css",
+    "static/js/main.669f7c3c.js"
   ]
 }
