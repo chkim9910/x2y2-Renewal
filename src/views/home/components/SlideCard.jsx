@@ -6,11 +6,12 @@ import {
   Heading,
   Text,
 } from "@chakra-ui/react";
-// import { Link as ReactRouterLink } from "react-router-dom";
-// import { Link as ChakraLink } from "@chakra-ui/react";
+import { Link as ReactRouterLink } from "react-router-dom";
+import { Link as ChakraLink } from "@chakra-ui/react";
 // import checked from "../../../assets/images/comm/checked-blue.svg";
 
 export default function SlideCard(props) {
+  console.log(props.desc);
   return (
     <>
       {/* <ChakraLink
@@ -21,7 +22,7 @@ export default function SlideCard(props) {
       > */}
       <Flex
         className="card"
-        backgroundImage={`linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4)), url(${props.img})`}
+        backgroundImage={`linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4)), url(${props.bgImg})`}
         flex={1}
         backgroundPosition={"50% 50%"}
         backgroundSize={"cover"}
@@ -44,9 +45,13 @@ export default function SlideCard(props) {
           left={0}
           right={0}
           bottom={0}
-          bg={"white.200"}
+          // bg={"black.100"}
           borderRadius={"20px"}
-          backdropFilter={"blur(10px)"}
+          backdropFilter={
+            props.index === 1 || props.index === 4 || props.index === 7
+              ? "blur(5px)"
+              : "blur(0)"
+          }
         ></Box>
         <Flex
           className="cont-box"
@@ -75,46 +80,70 @@ export default function SlideCard(props) {
           <Flex
             className="text"
             flexDir={"column"}
-            gap={"16px"}
-            color={"white"}
+            gap={{ base: "8px", md: "16px" }}
+            // color={"txt"}
+            // color={"white"}
+            color={props.index === 6 || props.index === 7 ? "txt" : "white"}
             position={"relative"}
             zIndex={1}
+            maxW={{ base: "100%", md: "420px" }}
           >
-            <Flex gap={"5px"} alignItems={"center"} justifyContent={"center"}>
+            <Flex
+              className="txt-box"
+              alignItems={"center"}
+              justifyContent={{ base: "center", md: "flex-start" }}
+              textAlign={{ base: "center", md: "left" }}
+            >
               <Heading
-                fontSize={{ base: "34px", "2sm": "40px" }}
-                fontWeight={600}
                 className="name"
+                fontSize={{ base: "30px", sm: "32px", "2sm": "40px" }}
+                fontWeight={600}
                 lineHeight={1}
+                letterSpacing={"-1px"}
               >
                 {props.name}
               </Heading>
               {/* <Img src={checked} alt="checked" width={"24px"} /> */}
             </Flex>
-            <Text
-              className="desc"
-              fontSize={"15px"}
-              fontWeight={400}
-              color={"white.800"}
+            <Flex
+              flexDir={"column"}
+              gap={{ base: "5px", md: "10px" }}
+              alignItems={{ base: "center", md: "flex-start" }}
             >
-              {props.desc}
-            </Text>
-            <Text
-              className="floor"
-              fontSize={"15px"}
-              fontWeight={400}
-              color={"white.800"}
-            >
-              Floor: {props.floor} ETH
-            </Text>
-            <ButtonGroup>
-              <Button variant={"c"} fontSize={{ base: "14px", md: "16px" }}>
-                Explore Collection
-              </Button>
-              <Button variant={"d"} fontSize={{ base: "14px", md: "16px" }}>
-                Follow on X
-              </Button>
-            </ButtonGroup>
+              <Text
+                className="desc"
+                fontSize={{ base: "14px", md: "15px" }}
+                fontWeight={400}
+                // color={"white.900"}
+                color={
+                  props.index === 6 || props.index === 7 ? "txt" : "white.900"
+                }
+                textAlign={{ base: "center", md: "left" }}
+              >
+                {props.desc}
+              </Text>
+              <Text
+                className="floor"
+                fontSize={{ base: "14px", md: "15px" }}
+                fontWeight={400}
+                // color={"white.800"}
+                color={
+                  props.index === 6 || props.index === 7 ? "txt" : "white.800"
+                }
+              >
+                Floor: {props.floor} ETH
+              </Text>
+              <ButtonGroup mt={{ base: 0, lg: "10px" }}>
+                <ChakraLink as={ReactRouterLink} to="/moreview1">
+                  <Button variant={"c"} fontSize={{ base: "14px", md: "16px" }}>
+                    Explore Collection
+                  </Button>
+                </ChakraLink>
+                <Button variant={"d"} fontSize={{ base: "14px", md: "16px" }}>
+                  Follow on X
+                </Button>
+              </ButtonGroup>
+            </Flex>
           </Flex>
         </Flex>
       </Flex>

@@ -62,7 +62,7 @@ export const buttonStyles = {
           minW: "110px",
           lineHeight: 0,
           _hover: {
-            bg: "white.200",
+            bg: "white.300",
           },
         }),
         e: () => ({

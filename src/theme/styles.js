@@ -152,6 +152,9 @@ export const globalStyles = {
       ".sect1 .swiper-horizontal": {
         padding: { base: "20px 0", lg: "20px 50px" },
       },
+      ".sect1 .swiper-slide": {
+        h: "auto !important",
+      },
       ".sect1 .swiper-button-next": {
         width: "35px",
         height: "100%",
@@ -176,17 +179,26 @@ export const globalStyles = {
         // display: { base: "none", lg: "flex" },
       },
       ".sect1 .swiper-button-next::after": {
-        color: "#3B82F6",
+        color: "#562EC8",
         fontSize: "30px",
         fontWeight: "bold",
       },
       ".sect1 .swiper-button-prev::after": {
-        color: "#3B82F6",
+        color: "#562EC8",
         fontSize: "30px",
         fontWeight: "bold",
       },
       ".sect1 .swiper-pagination": {
         bottom: "-6px",
+        position: "relative",
+      },
+      ".sect1 .swiper-pagination-bullet-active": {
+        background: "linear-gradient(160deg, #00E0FF, #562EC8)",
+        width: "40px",
+        borderRadius: "8px",
+      },
+      ".sect1 .swiper-pagination-bullet": {
+        transition: "all 0.3s",
       },
       ".sect2 .hot-collections .css-1qe9ypl": {
         padding: "15px 10px",
