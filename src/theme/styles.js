@@ -150,12 +150,12 @@ export const globalStyles = {
         width: "auto !important",
       },
       ".sect1 .swiper-horizontal": {
-        padding: { base: 0, lg: "0 50px" },
+        padding: { base: "20px 0", lg: "20px 50px" },
       },
       ".sect1 .swiper-button-next": {
         width: "35px",
         height: "100%",
-        marginTop: 0,
+        margin: "20px 0",
         top: 0,
         right: 0,
         zIndex: 10,
@@ -167,7 +167,7 @@ export const globalStyles = {
       ".sect1 .swiper-button-prev": {
         width: "35px",
         height: "100%",
-        marginTop: 0,
+        margin: "20px 0",
         top: 0,
         left: 0,
         bgColor: { base: "transparent", lg: "rgba(255, 255, 255, .3)" },
@@ -184,6 +184,9 @@ export const globalStyles = {
         color: "#3B82F6",
         fontSize: "30px",
         fontWeight: "bold",
+      },
+      ".sect1 .swiper-pagination": {
+        bottom: "-6px",
       },
       ".sect2 .hot-collections .css-1qe9ypl": {
         padding: "15px 10px",

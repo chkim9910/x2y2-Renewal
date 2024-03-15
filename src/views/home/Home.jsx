@@ -1,8 +1,8 @@
-import { Box, Button, ButtonGroup, Flex, Select, Text } from "@chakra-ui/react";
+import { Box, Button, ButtonGroup, Flex, Select } from "@chakra-ui/react";
 import Sect1Slide from "./components/Sect1Slide";
 import Inner from "../../components/comm/Inner";
 // import { position } from "polished";
-import sect1Bg from "../../assets/images/home/sect1/slide1.png";
+// import sect1Bg from "../../assets/images/home/sect1/slide1.png";
 import Title from "../../components/comm/Title";
 import Sect2Table from "./components/Sect2Table";
 import { table1 } from "./contents/sect2table1";
@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <Box
         className="sect1"
-        backgroundImage={`url(${sect1Bg})`}
+        // backgroundImage={`url(${sect1Bg})`}
         bgPosition={"0% 100%"}
         pt={"80px"}
         position={"relative"}
@@ -34,11 +34,12 @@ export default function Home() {
           backdropFilter={"saturate(180%) blur(15px)"}
         ></Box>
         <Inner position={"relative"} zIndex={10}>
-          <Box className="text-box" mb={"20px"}>
+          {/* <Box className="text-box" mb={"20px"}>
             <Text
               className="tit"
               fontSize={{ base: "32px", lg: "48px" }}
-              color={"white"}
+              color={"txt"}
+              // color={"white"}
               fontWeight={"bold"}
               mt={"30px"}
               lineHeight={1.2}
@@ -47,13 +48,14 @@ export default function Home() {
             </Text>
             <Text
               className="sub-tit"
-              color={"white"}
+              color={"txt"}
+              // color={"white"}
               fontWeight={"light"}
               fontSize={{ base: "14px", lg: "1rem" }}
             >
               Best place to liquify your illiquidity
             </Text>
-          </Box>
+          </Box> */}
 
           <Sect1Slide />
         </Inner>
