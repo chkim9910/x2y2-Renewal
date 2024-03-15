@@ -59,7 +59,7 @@ export default function Home() {
         </Inner>
       </Box>
       <Box className="sect2">
-        <Inner m={{ base: "50px 0", lg: "80px 0" }}>
+        <Inner m={{ base: "50px 0 0 0", lg: "50px 0 0 0" }}>
           <Box
             className="upper"
             display={{ base: "block", md: "flex" }}
@@ -97,7 +97,7 @@ export default function Home() {
         </Inner>
       </Box>
       <Box className="sect3">
-        <Inner m={{ base: "50px 0", lg: "80px 0" }}>
+        <Inner m={{ base: "50px 0 0 0", lg: "50px 0 0 0" }}>
           <Box
             bg={`url(${sect3bg}) no-repeat 0% 0% / cover `}
             borderRadius={"20px"}
@@ -132,13 +132,13 @@ export default function Home() {
         </Inner>
       </Box>
       <Box className="sect4">
-        <Inner m={{ base: "50px 0", lg: "80px 0" }}>
+        <Inner m={{ base: "50px 0 0 0", lg: "50px 0 0 0" }}>
           <Title>Spotlight</Title>
           <Sect4Card />
         </Inner>
       </Box>
       <Box className="sect5">
-        <Inner m={{ base: "50px 0", lg: "80px 0" }}>
+        <Inner m={{ base: "50px 0 0 0", lg: "50px 0 0 0" }}>
           <Sect5Slide />
         </Inner>
       </Box>
