@@ -96,6 +96,8 @@ export default function Sect1Slide() {
       desc: "Flower Fam is a collection of 8,888 fine art NFTs with 250+ hand-drawn vibrant traits created by Talia Zoref, who was inspired by the contrast between the colorful and fun fashion world and the judging eye that belittles the industry. ",
     },
   ];
+
+  // swiper button play & stop
   const swiperRef = useRef();
   const [isAutoplayActive, setIsAutoplayActive] = useState(true); // autoplay 상태 변수 추가
   const pause = () => {
